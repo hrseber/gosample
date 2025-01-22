@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_hrseber_gosample_1737584046706-pr-trigger-input-set
+  identifier: Build_hrseber_gosample_1737584046706prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Candidate_2
+  pipeline:
+    identifier: Build_hrseber_gosample_1737584046706
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
