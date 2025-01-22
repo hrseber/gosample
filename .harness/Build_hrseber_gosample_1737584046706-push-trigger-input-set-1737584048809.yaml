@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_hrseber_gosample_1737584046706-push-trigger-input-set
+  identifier: Build_hrseber_gosample_1737584046706pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Candidate_2
+  pipeline:
+    identifier: Build_hrseber_gosample_1737584046706
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
